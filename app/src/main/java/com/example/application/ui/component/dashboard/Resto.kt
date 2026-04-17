@@ -54,14 +54,14 @@ fun RestoSection() {
                         .width(160.dp)
                         .border(
                             2.dp,
-                            Color(0xFFE0E0E0), // 🔥 abu soft
+                            Color(0xFFE0E0E0),
                             RoundedCornerShape(16.dp)
                         ),
                     shape = RoundedCornerShape(16.dp),
                     colors = CardDefaults.cardColors(
-                        containerColor = Color.Transparent // 🔥 transparan
+                        containerColor = Color.Transparent
                     ),
-                    elevation = CardDefaults.cardElevation(0.dp) // 🔥 hilangin shadow
+                    elevation = CardDefaults.cardElevation(0.dp)
                 ) {
 
                     Column {
